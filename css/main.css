@@ -1,0 +1,137 @@
+/***** BASE STYLES *****/
+
+header,
+footer, 
+section{
+   overflow: auto;
+}
+
+body{
+    background-image: url('../img/leaves.jpg');
+    background-position: top left;
+    background-attachment: scroll;
+}
+
+/***** GRID *****/
+
+.wrapper-bigger{
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+}
+
+.wrapper-smaller{
+    background-image: url('../img/wall.jpg'); /** would like to give this image some opacity **/
+}
+
+.full-width{
+    padding: 25px;
+    text-align: center;
+}
+
+.half-width{
+width: 40%;
+display: inline-block; 
+text-align: left; 
+padding: 15px;
+font-size: 18px;
+vertical-align: top;
+}
+
+/***** HEADER *****/
+
+header{
+    height: 300px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+h1{
+    padding: 30px;
+}
+
+.vangbergs{
+    font-style: italic;
+    font-size: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li a{
+    padding: 30px; /** would like to center nav bar in a proper way **/
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/***** HJEM *****/
+
+#hjem{
+    border-bottom: 2px solid black;
+}
+
+/***** VÆRELSERNE *****/
+
+h4{
+    font-size: 18px;
+}
+
+#vaerelser{
+    border-bottom: 2px solid black;
+}
+
+.scaled{
+    width: 31%; 
+    object-fit: contain;
+    float: left;
+}
+
+#yard{
+    margin: 0 2.5px 40px 25px;
+    border: 1px solid black;
+}
+
+#entry{
+    margin: 0 2.5px 40px 2.5px;
+    border: 1px solid black;
+}
+
+#bed{
+    margin: 0 0 40px 2.5px;
+    border: 1px solid black;
+}
+
+/***** PRISER *****/
+
+#priser{
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+/***** KONTAKT OS *****/
+
+#marianne-img{
+    width: 40%;
+    object-fit: contain;
+    float: right;
+    border: 1px solid black;
+}
+
+#kontakt{
+    float: left;
+}
+
+#kontakt-os{
+    padding-left: 35px;
+    border-bottom: 2px solid black;
+}
+
+#adresse{
+    color: darkgreen;
+    font-weight: bold;
+}
