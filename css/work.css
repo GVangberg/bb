@@ -1,0 +1,189 @@
+/***** BASE STYLES *****/
+
+header,
+footer, 
+section{
+   overflow: auto;
+}
+
+body {
+    font-family: verdana;
+    color: rgb(68, 64, 64);
+}
+
+#hjem, #værelser, #priser {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 40%;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 400px;
+    background-color: #E4572E;
+}
+
+.vangbergs {
+    font-size: 70px;
+    padding-right: 400;
+    font-style: italic;
+}
+
+.bb {
+    color: F3A712;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+nav {
+    float: right;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px; 
+    padding-right: 20px;
+}
+
+/***** HJEM *****/
+
+#hjem h2 {
+    color: #E4572E;
+    text-align: center;
+    padding: 30px;
+}
+
+/* would like to make a yellow border of this div */
+
+#h-one, #h-two { /* would like to center the two boxes */
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid rgb(68, 64, 64);
+}
+
+/***** VÆRELSER *****/
+
+#værelser {
+    background-color: #E4572E;
+}
+
+#værelser h2 {
+    color: #F3A712;
+     /* text-align: center; */
+    margin-left: 50px;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.faciliteter {
+    font-weight: bold;
+    color: white;
+}
+
+.kolon {
+    font-weight: bold;
+    color: #F3A712;
+}
+
+#v-one, #v-two {
+    float: left;
+    padding: 30px 30px 30px 50px;
+    color: white;
+    vertical-align: center;
+}
+
+#v-three {
+    margin: 50px;
+}
+
+/***** PRISER *****/
+
+/* .full-width-p {
+    height: 300px;
+} how to reduce height of this section? */
+
+#p-one, #p-two {
+    float: left;
+    height: 300px;
+    border: 1px solid #F3A712;
+    margin: 50px;
+}
+
+#priser h2{
+    font-size: 60px;
+    color: #E4572E;
+}
+
+#p-one{
+    box-sizing: border-box;
+    padding: 50px 0 0 100px;
+}
+
+#p-two{
+    box-sizing: border-box;
+    padding: 70px 0 0 50;
+}
+
+/***** KONTAKT *****/
+
+#kontakt {
+    background-color: #E4572E;
+    height: 500px;
+    border-top: 3px solid rgb(68, 64, 64);
+    border-bottom: 3px solid rgb(68, 64, 64);
+}
+
+#kontakt h2 {
+    color: white;
+    font-size: 30px;
+    padding: 50px 0 20px 50px;
+}
+
+.tlf-mail {
+    font-weight: bold;
+}
+
+#marianne {
+    border: 1px solid white;
+    img align: middle;
+    max-width: 30%;
+    height: auto;
+}
+
+#k-one {
+    float: right;
+    
+}
+
+#k-two {
+    margin: 30px 0 30px 50px;
+    color: white;
+}
+
+/***** ADRESSE *****/
+
+#adresse p {
+    color: #F3A712;
+    text-align: center;
+}
