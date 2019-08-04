@@ -21,7 +21,8 @@ body{
 }
 
 .wrapper-smaller{
-    background-image: url('../img/wall.jpg'); /** would like to give this image some opacity **/
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: url('../img/wall.jpg'); */ /** would like to give this image some opacity **/
 }
 
 .full-width{
